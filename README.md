@@ -7,6 +7,27 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+# Backend - My Fullstack App
+
+## Requisitos
+- PHP >= 8.0
+- Composer
+- Base de datos configurada
+
+## Instalación
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/JaumeMIR12/project-server.git
+   cd my-fullstack-server
+## Instalar dependencias:
+composer install
+
+## Modificar el archivo .env a tu variables de entorno y migrar la base de datos
+php artisan migrate
+
+## Ejecuta el server
+php artisan serve
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
