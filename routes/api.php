@@ -21,3 +21,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::get('/test', function () {
     return response()->json(['message' => 'Hello from Laravel!']);
 });
+Route::get('/home-data', [HomeController::class, 'getHomeData']);
